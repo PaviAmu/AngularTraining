@@ -1,0 +1,105 @@
+
+<br> <br>
+&nbsp;&nbsp;<img src="/assets/mer.jpg" height="280" width="270" alt=""> 
+<img src="/assets/delivery.jpg" height="280" width="270" alt=""> 
+<img src="/assets/delivery2.jpg" height="280" width="270" alt=""> 
+<img src="/assets/bg2.jpeg" height="280" width="270" alt=""> 
+<img src="/assets/rider.jpg" height="280" width="270" alt="">
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+<br><br> <br>
+<div class="container">
+<br>
+<h1 class="text-center">ADD Customer</h1> 
+
+<div class="card bg-light mx-auto cardcolor" style="width: 32rem;">
+<article class="card-body mx-auto " style="max-width: 400px;">
+
+  <form name="form" (ngSubmit)="addcustomer()" #f="ngForm">
+  <div class="form-group input-group">
+    <div class="input-group-prepend">
+        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+     </div>
+        <input class="form-control" placeholder="Full name" type="text"
+    [(ngModel)]="model.name" name="name" required #name="ngModel">
+    </div> 
+
+    <div class="form-group input-group">
+      <div class="input-group-prepend"> 
+        <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+     </div>
+        <input  class="form-control" placeholder="Email address" type="email"
+    [(ngModel)]="model.email" name="email" required #email="ngModel">
+    </div> 
+
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+        <span class="input-group-text"> <i class="fa fa-unlock-alt"></i> </span>
+     </div>
+         <input  class="form-control" placeholder="password" type="password"
+         [(ngModel)]="model.password" name="password" required #password="ngModel">
+    </div>
+
+    <div class="form-group input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+     </div>
+        <input  class="form-control" placeholder="Mobile" type="number"
+    [(ngModel)]="model.mobile" name="mobile" required #mobile="ngModel">
+    </div>
+
+  <button type="submit" class="btn btn-primary Block">Add</button>
+   
+</form>
+</article>
+</div> 
+
+</div> 
+
+<br> <br> <br>
+
+<div class="container"> <br>
+    <div class="user">
+        <mat-icon style="font-size: 40px;" matSuffix> perm_identity</mat-icon>
+      <i class="fa fa-user-circle animate__flash" aria-hidden="true"></i>
+      <h3>Customer</h3>
+      <p>Providing better services to hay customer</p>
+    </div> <br>
+    <div class="loc">
+        <mat-icon style="font-size: 40px;" matSuffix> room</mat-icon>
+      <i class="fa fa-location-arrow animate__flash" aria-hidden="true"></i>
+      <h3>Location</h3>
+      <p>Detailed location aaccuracy for prompt delivery</p>
+    </div> <br>
+    <div class="serv">
+        <mat-icon style="font-size: 40px;" matSuffix> commute</mat-icon>
+      <i class="fa fa-motorcycle" aria-hidden="true"></i>
+      <h3>Safe and happy ride</h3>
+      <p>Enjoy your drops and delivery safely</p>
+    </div>
+    <a href = "mailto:tkswethasri@gmail.com?subject = Feedback&body = hiiiiiiiiiii">
+      Send Feedback
+      </a>
+      <a href="sms:, +91 9999999999">contact</a>
+      <a href="intent://send/+XXXXXXXXXXX#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">
+       <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+  </div>
+ 
+  
+
+
+  
+    
+  
+  
+  
+  
+

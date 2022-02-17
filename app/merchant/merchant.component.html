@@ -1,0 +1,101 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://use.fontawesome.com/your-embed-code.js"></script> 
+
+<div class="card mx-auto mt-5">
+
+<div class="pad ml-5">
+  <form ame="form" (ngSubmit)="addmerchant()" #f="ngForm">
+ 
+   <div class="row">
+  <div class="col">
+    <div class="row">
+      <div class="col-3 design">
+        <label>Email</label>
+      </div>
+      <div class="col-2">
+        <input type="email" [(ngModel)]="model.email" name="email" required #email="ngModel" autocomplete="no">
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-3 design">
+        <label>Mobile</label>
+      </div>
+      <div class="col">
+        <input type="number" [(ngModel)]="model.mobile" name="mobile" maxlength="10" required #mobile="ngModel" autocomplete="no">
+      </div>
+    </div>
+    <div class="row  mt-3">
+      <div class="col-3 design">
+        <label>Password</label >
+      </div>
+      <div class="col">
+        <input type="password" [(ngModel)]="model.password" name="password" required #password="ngModel">
+      </div>
+    </div>
+    <div class="row  mt-3">
+      <div class="col-3 design">
+        <label>Address</label>
+      </div>
+      <div class="col">
+        <textarea type="text" [(ngModel)]="model.address" name="address" required #address="ngModel"></textarea>
+      </div>
+    </div>
+  
+  
+  </div>
+  
+  <div class="col-2">
+  <hr class="ml-3">
+
+  </div>
+  
+  <div class="col">
+    <div class="row  ">
+      <div class="col-3 design">
+        <label>Area</label>
+      </div>
+      <div class="col">
+        <input type="text" [(ngModel)]="model.area" name="area" required #area="ngModel">
+      </div>
+    </div>
+    <div class="row  mt-3">
+      <div class="col-3 design">
+        <label>City</label>
+      </div>
+      <div class="col">
+        <input type="text" [(ngModel)]="model.city" name="city" required #city="ngModel">
+      </div>
+    </div>
+    <div class="row  mt-3">
+      <div class="col-3 design">
+        <label>District</label>
+      </div>
+      <div class="col">
+        <input type="text" [(ngModel)]="model.district" name="district" required #district="ngModel">
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-3 design">
+        <label>State</label>
+      </div>
+      <div class="col">
+        <input type="text" [(ngModel)]="model.state" name="state" required #state="ngModel">
+      </div>
+    </div>
+   </div>
+  
+   </div>
+    
+   <div class="row mt-5  justify-content-md-center">
+    <button  class="btn btn-primary Block"> Registerted</button>
+        </div>
+  </form>
+  
+</div>
+
+
+</div>
+

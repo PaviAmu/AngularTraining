@@ -1,0 +1,24 @@
+h2 {
+    color: red;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+video {
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 400px;
+    width: 800px;
+}
+
+a {
+    color: deeppink;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-left: 450px;
+    margin-right: 500px;
+}

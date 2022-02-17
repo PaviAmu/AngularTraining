@@ -1,0 +1,58 @@
+
+.container  {
+   
+    background-color: rgb(110, 205, 235);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 1300px;
+    width: 750px;
+}    
+    
+.user {
+    font-size: 30px;
+    border: black;
+    border-style: solid;
+    
+}
+  
+.button :hover {
+    background-color: salmon;
+    
+}
+
+.loc {
+    font-size: 30px;
+    border: black;
+    border-style: solid;
+}
+.serv {
+    font-size: 30px;
+    border: black;
+    border-style: solid;
+}
+
+.user :hover {
+    background-color: greenyellow;
+}
+.loc :hover {
+    background-color: orangered;
+}
+.serv :hover {
+    background-color: violet;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: darkmagenta;
+}
+
+h1 {
+    animation: bounce;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+}

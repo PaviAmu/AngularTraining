@@ -1,0 +1,19 @@
+table {
+    background-color: dimgray;
+    color: white;
+    border: none;
+    margin-left: 30%;
+    margin-right: 70%;
+    text-justify: inter-word;
+    text-align: justify;
+    column-width: 60px;
+    height: 100px;
+    width: 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+td {
+    font-size: 20px;
+}
